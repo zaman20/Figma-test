@@ -1,7 +1,11 @@
 *{
     margin: 0;
 }
-
+.main-container{
+    width: 100%;
+    max-width: 1728px;
+    margin: 0 auto;
+}
 .top-bar{
     width: 80%;
     margin: 0 auto;
@@ -86,4 +90,203 @@
     color: #fff;
     font-size: 18px;
     font-weight: 400;
+}
+/* ============== hero section ====================== */
+.hero-section{
+    background: #06123D;
+    clear: both;
+    height: 450px;
+    width: 100%;
+    padding-top: 10px;
+}
+.hero-content{
+    width: 78%;
+    max-width: 1485px;
+    height: 903px;
+    background: url(img/bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    padding-top: 47px;
+    z-index: 4;
+    position: absolute;
+    color: #fff;
+    
+  
+}
+.hero-content h2{
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 62px;
+    width: 427px;
+    margin-left: 148px;
+}
+.hero-content p {
+    width: 307px;
+    text-align: left;
+    margin-top: 43px;
+    margin-left: 162px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.search-box {
+    margin-top: 200px;
+    margin-left: 152px;
+}
+.search-box span {
+    background: #52B099;
+    border-radius: 20px;
+    padding: 7px 13px;
+    margin-left: 10px;
+    /* margin-top: 116px; */
+    font-size: 14px;
+}
+.search-form {
+    width: 999px;
+    background: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 7px;
+}
+i.fa-solid.fa-magnifying-glass {
+    color: #cfcfcf;
+    font-size: 20px;
+}
+.search-form input[type="text"] {
+    width: 75%;
+    height: 30px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 25px;
+    outline-style: solid;
+    outline-color: #fff;
+}
+.search-form input[type="text"]::placeholder{
+    color: #06123D;
+}
+.search-submit {
+    width: 190px;
+    height: 50px;
+    background: #06123D;
+    color: #ffff;
+    border-radius: 100px;
+}
+
+/* ============ Advice Section ============ */
+.advice-section{
+    width: 100%;
+    height: 609px;
+    background: #3F7280;
+    padding-top: 100px;
+    z-index:1;
+    margin-top: -100px;
+    border-radius:0px 0px 0px 182px;
+    position: absolute;
+}
+
+/* ============ Tweehand Section ============ */
+.tweehand-section{
+    width: 100%;
+    background: #06123D;
+    height: 1090px;
+    padding-top: 701px;
+}
+.tweehand-left{
+    width: 30%;
+    float: left;
+    color: white;
+    margin-left: 120px;
+    margin-top: 200px;
+}
+.tweehand-left h2{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.tweehand-left p{
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.tweehand-left a {
+    color: rgb(255, 255, 255);
+    background: rgb(82, 176, 153);
+    padding: 4px 10px;
+    border-radius: 18px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.tweehand-left a i{
+    margin-left: 3px;
+    font-size: 15px;
+}
+.tweehand-right{
+    width: 55%;
+    float: right;
+}
+.tweehand-right img{
+    width: 100%;
+    text-align: right;
+}
+/* ============ slider Section ============ */
+.slider-section {
+    clear: both;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 67px;
+    border-radius: 200px 200px 0px 0px;
+    margin-top: -190px;
+    position: absolute;
+    z-index: 9;
+    background: white;
+}
+.slider-section h2 {
+    font-size: 70px;
+    color: #06123D;
+    line-height: 63px;
+    margin-bottom: 57px;
+}
+
+
+.my-slide {
+    width: 99%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.my-item {
+    width: 886px !important;
+    margin: 10px;
+}
+.my-slide img {
+    width: 897px;
+}
+.slide-button{
+    position: relative;
+}
+.prev-btn {
+    position: absolute;
+    right: 257px;
+    top: bottom;
+    bottom: 246px;
+    
+}
+.next-btn {
+    position: absolute;
+    left: 162px;
+    bottom: 246px;
+}
+.prev-btn img, .next-btn img{
+    width: 50px;
+    height: 50px;
+}
+/* ============ Advice Section ============ */
+.carousel .slick-center {
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+
 }
