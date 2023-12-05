@@ -285,8 +285,8 @@ i.fa-solid.fa-magnifying-glass {
     height: 50px;
 }
 /* ============ Advice Section ============ */
-.carousel .slick-center {
-    -webkit-transform: scale(1.9);
-    transform: scale(1.9);
-
+.slick-center {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);
 }
