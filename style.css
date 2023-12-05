@@ -100,7 +100,7 @@
     padding-top: 10px;
 }
 .hero-content{
-    width: 78%;
+    width: 85%;
     max-width: 1485px;
     height: 903px;
     background: url(img/bg.png);
@@ -119,19 +119,19 @@
     font-weight: 600;
     line-height: 62px;
     width: 427px;
-    margin-left:35px;
+    margin-left:93px;
 }
 .hero-content p {
     width: 307px;
     text-align: left;
     margin-top: 43px;
-    margin-left: 35px;
+    margin-left: 104px;
     font-size: 17px;
     line-height: 25px;
 }
 .search-box {
     margin-top: 182px;
-    margin-left: 20px;
+    margin-left: 85px;
 }
 .search-box span {
     background: #52B099;
